@@ -1,3 +1,2 @@
-using from './books';
-using from './Reviews';
-using from './rating';
+using from './entities/index';
+using from './types/index';

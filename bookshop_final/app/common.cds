@@ -1,4 +1,4 @@
-using {my.bookshop_final as bookshop} from '../db/books';
+using {my.bookshop_final as bookshop} from '../db/entities/books';
 
 annotate bookshop.Books with {
     title    @title : 'Title';

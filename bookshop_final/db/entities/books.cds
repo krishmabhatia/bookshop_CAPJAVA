@@ -1,14 +1,15 @@
 namespace my.bookshop_final; //groupid and artifctid
 
-using {my.bookshop_final as bookshop} from './index';
+using {my.bookshop_final as bookshop} from './Reviews';
+using {my.bookshop_final as bookshop_types} from '../types/index';
 using {Currency,cuid} from '@sap/cds/common';
 
 entity Books :cuid{
     //key id       : Integer;
-        title    : String(100);
-        descr    : String(1000);
-        author   : String(100);
-        genre    : String(100);
+        title    : bookshop_types.Name;
+        descr    : bookshop_types.Text;
+        author   : bookshop_types.Name;
+        genre    : bookshop_types.Name;
         price    : Decimal(9, 2);
         currency : Currency;
         rating   : Decimal(2, 1)@assert.range : [
