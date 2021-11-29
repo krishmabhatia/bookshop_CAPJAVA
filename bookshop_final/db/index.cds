@@ -1,2 +1,2 @@
-using from './entities/index';
-using from './types/index';
+using from './types';
+using from './entities';
