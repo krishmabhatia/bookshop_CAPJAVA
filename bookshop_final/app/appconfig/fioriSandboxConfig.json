@@ -4,7 +4,7 @@
         "browse-books": {
             "title": "Browse Books",
             "description": "Find your favorite book",
-            "additionalInformation": "SAPUI5.Component=bookshop",
+            "additionalInformation": "SAPUI5.Component=bookshop_final",
             "applicationType": "URL",
             "url": "/browse/webapp",
             "navigationMode": "embedded"

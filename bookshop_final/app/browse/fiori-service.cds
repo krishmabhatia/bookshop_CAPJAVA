@@ -14,7 +14,6 @@ annotate CatalogService.Books with @(UI : {
     {
       $Type  : 'UI.DataFieldForAnnotation',
       Target : '@UI.DataPoint#rating',
-
     },
     {
       Value : descr,
@@ -49,3 +48,7 @@ annotate CatalogService.Books with @(UI : {
   @Measures.ISOCurrency : currency.code
   price
 };
+
+annotate CatalogService.Books actions {
+    addReview(rating @title : 'Rating', title @title : 'Title', text @title : 'Text');
+}
