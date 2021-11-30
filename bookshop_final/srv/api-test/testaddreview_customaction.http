@@ -1,0 +1,11 @@
+POST http://admin:admin@localhost:8080/api/browse/Books(f846b0b9-01d4-4f6d-82a4-d79204f62278)/CatalogService.addReview
+content-type: application/json
+
+{
+  "title": "I hated it",
+  "text": "Birds freak me out OK ye?",
+  "rating": 1
+}
+
+### Get the new Review
+GET http://admin:admin@localhost:8080/api/browse/Reviews(fc0cc2e1-3280-469c-a842-42b6c23e67c6) HTTP/1.1

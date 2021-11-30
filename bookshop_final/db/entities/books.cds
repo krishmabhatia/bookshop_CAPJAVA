@@ -1,6 +1,6 @@
 namespace my.bookshop_final; //groupid and artifctid
 
-using {my.bookshop_final as bookshop} from './index';
+using {my.bookshop_final as bookshop} from '../index';
 using {Currency,cuid} from '@sap/cds/common';
 
 entity Books :cuid{

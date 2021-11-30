@@ -12,7 +12,8 @@
         }
     },
     "dependencies": {
-        "@sap/hana-client": "^2.10.20"
+        "@sap/hana-client": "^2.10.20",
+        "@sap/cds-dk": "^4.4.1"
     },
     "devDependencies": {
         "@sap/hdi-deploy": "^4.2.3"

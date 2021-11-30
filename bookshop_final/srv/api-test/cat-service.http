@@ -1,5 +1,5 @@
 ### Get all books
-GET http://localhost:8080/odata/v4/CatalogService/Books HTTP/1.1
+GET http://admin:admin@localhost:8080/api/browse/Books HTTP/1.1
 ### Create a book
 POST http://admin:admin@localhost:8080/api/browse/Books HTTP/1.1 
 content-type: application/json
